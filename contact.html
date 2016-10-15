@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<link rel="stylesheet" type="text/css" href="portfolio.css" />
+		<title>Sara Ahlers Contact Me</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<h1>Contact</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>	
+					</ul>
+				</nav>
+			
+			<div class="content">
+				<div id="contactform">
+					<h2>Contact Me</h2>
+					<form action="contact.html" method="post">
+						<label for="firstname" class="title">First Name:</label>
+							<input type="text" name="firstname" required="required"/>
+						<label for="lastname" class="title">Last Name:</label>
+							<input type="text" name="lastname" required="required"/>	
+						<label for="email" class="title">Email:</label>
+							<input type="email" name="email" required="required"/>
+						<label for="message" class="title">Message:</label>
+							<textarea name="message" rows="10" required="required"></textarea>
+						<div class="send">
+							<input type="submit" value="Send"/>
+						</div>
+					</form>
+				</div><!--end of #contactform-->
+			
+				<div id = "javaform">
+					<script src="portfolio.js"></script>
+					<form action = "contact.html" method="post">
+						<label for="name" class="title">Please enter your name:</label>
+							<input type="text" id="name" size="30">
+						<button type="button" onclick="myFunction(), resetForm()">Try Me!</button>
+					</form>
+					<p id = "result"></p>
+				</div><!--end of #javaform-->
+			</div><!--end of #content-->
+		
+			<footer>
+				<a href="https://www.linkedin.com/pub/sara-ahlers/96/b47/963">
+					<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View Sara Ahlers's profile on LinkedIn"></a>
+			</footer>
+		</div><!--end of #wrapper-->	
+	</body>
+	
+</html>

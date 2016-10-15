@@ -1,0 +1,213 @@
+@font-face {
+	font-family: 'Quicksand-Bold';
+	src: url('fonts/Quicksand-Bold.otf');
+}
+
+@font-face {
+	font-family: 'Quicksand-Regular';
+	src: url('fonts/Quicksand-Regular.otf');
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+   min-height:100%;
+   position:relative;
+   margin: 0 auto -50px;
+  }
+
+body {
+	font-family: Quicksand-Regular; Arial, sans-serif;
+	background-color: rgba(66, 134, 244, 0.4);
+	margin: 0px 20px 0px 20px;
+	height: 100%;
+}
+
+h1 {
+	font-family: Quicksand-Bold, Arial, sans-serif;
+	text-align: center;
+}
+
+h2 {
+	font-family: Quicksand-Regular, Arial, sans-serif;
+	margin: 10px;
+}
+
+/*Navigation Bar*/
+	nav ul {
+		list-style-type: none;
+		text-align: center;
+		background-color: #0a233d;
+		overflow: hidden;
+	}
+
+	nav li {
+		text-decoration: none;
+		font-size: 20px;
+		float: left;
+	}
+
+	nav a {
+		text-decoration: none;
+		color: white;
+		display: block;
+		padding: 14px 16px;
+	}
+
+	nav a:hover {
+		background-color: #10375e;
+	}
+
+.content {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	position: absolute;
+	height: 10%;
+}
+
+#images {
+	text-align: center;
+	margin: 50px 0px 50px 0px;
+	background-color: white;
+}
+
+#images img {
+	margin: 20px;
+	-moz-box-shadow: 5px 5px 5px #777777;
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+	border-radius: 5px;
+}
+
+/*About Me Page Starts Here*/
+#about {
+	display: inline-block;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;	
+	margin-top: 10px;
+}
+
+#introduction {
+	width: 50%;
+	vertical-align: top;
+	display: inline-block;
+	text-align: left;
+	margin: 20px;
+}
+
+blockquote {
+	font-style: italic;
+	font-size: 20px;
+	width: 40%;
+	padding: 5px;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	vertical-align: top;
+	display: inline-block;
+	text-align: right;
+	margin: 20px;
+}
+
+.source {
+	font-size: 15px;
+}
+
+/*Contact Me Page Starts Here*/
+
+#contactform, #javaform {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+}
+
+	/*Contact Form Styling*/
+
+		#contactform {
+			background-color:#F2F7F9;
+		    width: 40%;
+		    padding: 10px;
+		    border: 3px solid #345487;
+		    -moz-border-radius:15px;
+		    -webkit-border-radius:15px;
+		    border-radius:15px;
+		}
+
+		#contactform label {
+			display: block;
+		}
+
+		#title {
+			float: left;
+			padding-right: 10px;
+		}
+
+		#contactform input[type="text"], input[type="email"]{
+			border-radius: 5px;
+			margin: 10px 0px 10px 0px;
+			width: 100%;
+		}
+
+		textarea{
+			border-radius: 5px;
+			margin: 10px 0px 10px 0px;
+			width: 100%;
+		}
+
+		.send {
+			text-align: right;
+			width: 100%;
+			margin: 10px 0px 10px 0px;
+		}
+
+		input[type="submit"] {
+			background-color: #122544;
+			color: white;
+			border-radius: 5px;
+			padding: 5px;
+		}
+
+		input[type="submit"]:hover {
+			-moz-box-shadow: 2px 2px 2px #777777;
+			-webkit-box-shadow: 2px 2px 2px #777777;
+			box-shadow: 2px 2px 2px #777777;
+			background-color: #345487;
+		}
+
+#javaform {
+	padding-left: 100px;
+	width: 40%;
+}
+
+#javaform input {
+	margin: 10px 0px 10px 0px;
+}
+
+#result {
+	font-family: Quicksand-Bold, Arial, sans-serif;
+	font-size: 20px;
+}
+
+
